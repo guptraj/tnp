@@ -12,12 +12,14 @@ import { connectToDB } from "../mongoose";
 export async function fetchUser(userId: string) {
   try {
     connectToDB();
+    console.log("MongoDB connected");
 
     return await User.findOne({ id: userId }).populate({
       path: "communities",
       model: Community,
     });
   } catch (error: any) {
+    console.log("MongoDB not connected");
     throw new Error(`Failed to fetch user: ${error.message}`);
   }
 }
