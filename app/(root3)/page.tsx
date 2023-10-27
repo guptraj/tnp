@@ -1,3 +1,9 @@
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
+import Section1 from "@/components/shared/Section1";
+import Section2 from "@/components/shared/Section2";
+import Section3 from "@/components/shared/Section3";
+
 async function Home({
     searchParams,
   }: {
@@ -9,7 +15,12 @@ async function Home({
   
     return (
       <>
-        <h1 className='head-text text-left'>Home</h1>
+        <Navbar />
+
+<Section1 />
+<Section2 />
+<Section3 />
+<Footer />
   
         
   

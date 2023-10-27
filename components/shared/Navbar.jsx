@@ -18,6 +18,7 @@ import CallMadeIcon from "@mui/icons-material/CallMade";
 import LanguageIcon from "@mui/icons-material/Language";
 import LaunchButton from "@/components/Buttons/LaunchButton";
 import MenuIcon from "@mui/icons-material/Menu";
+import Link from "next/link";
 
 const LinkButton = ({ children, ...props }) => (
   <Stack
@@ -115,12 +116,14 @@ const Navbar = () => {
                 <LanguageIcon fontSize="small" />
                 <Typography variant="body2">EN</Typography>
               </LinkButton>
+                <Link href="/sign-in">
 
               <LaunchButton sx={{ borderRadius: 3 }} />
+                </Link>
             </Stack>
           )}
         </Stack>
-      </Container>
+      </Container> 
     </AppBar>
   );
 };

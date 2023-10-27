@@ -1,4 +1,5 @@
 import { currentUser } from "@clerk/nextjs";
+import Link from "next/link";
 
 async function RightSidebar() {
 
@@ -6,9 +7,12 @@ async function RightSidebar() {
   return (
     <section className='custom-scrollbar rightsidebar'>
       <div className='flex flex-1 flex-col justify-start'>
+        <Link href='/resume'>
+
         <h3 className='text-heading4-medium text-light-1'>
-          Suggested Communities
+         Generate Resume
         </h3>
+        </Link>
 
         
       </div>

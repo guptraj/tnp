@@ -116,7 +116,7 @@ const Section4 = () => {
               {bottom.subtitle}
             </Typography>
 
-            <Link href="/home">
+            <Link href="/tnp">
             <OutlinedButton arrow fit >
               TnP Cell
             </OutlinedButton>

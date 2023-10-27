@@ -1,10 +1,6 @@
 import "../globals.css";
 import type { Metadata } from "next";
-import Navbar from "@/components/shared/Navbar";
-import Footer from "@/components/shared/Footer";
-import Section1 from "@/components/shared/Section1";
-import Section2 from "@/components/shared/Section2";
-import Section3 from "@/components/shared/Section3";
+
 import ThemeRegistry from "@/components/ThemeRegistry/ThemeRegistry";
 
 export const metadata: Metadata = {
@@ -21,12 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ThemeRegistry>
-          <Navbar />
-
-          <Section1 />
-          <Section2 />
-          <Section3 />
-          <Footer />
+          {children}
         </ThemeRegistry>
       </body>
     </html>
