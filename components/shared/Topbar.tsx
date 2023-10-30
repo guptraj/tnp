@@ -5,11 +5,10 @@ import { dark } from "@clerk/themes";
 function TopBar() {
   return (
     <nav className="topbar">
-      <Link href="/" className="flex items-center gap-4">
-        <img src="/assets/logo.svg" alt="logo" width={28} height={28} />
-        <p className="text-heading3-bold text-light-1 max-xs:hidden">
-          STUDENT.io
-        </p>
+      <Link href="/" className="flex items-center gap-2">
+        <img src="/assets/logo2.png" alt="logo" width={70} height={70} />
+        <img src="/assets/logo3.png" alt="logo" width={200} height={200} />
+        
       </Link>
 
       <div className="flex items-center gap-1">

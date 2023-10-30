@@ -6,8 +6,10 @@ async function RightSidebar() {
 
   return (
     <section className='custom-scrollbar rightsidebar'>
-      <div className='flex flex-1 flex-col justify-start'>
-        <Link href='/resume'>
+      <div className='flex flex-1 flex-col justify-start mt-[25px]'>
+        <Link href='https://resume-io-inky.vercel.app/'
+        className={`leftsidebar_link bg-primary-500`}
+        >
 
         <h3 className='text-heading4-medium text-light-1'>
          Generate Resume
@@ -17,10 +19,7 @@ async function RightSidebar() {
         
       </div>
 
-      <div className='flex flex-1 flex-col justify-start'>
-        <h3 className='text-heading4-medium text-light-1'>Similar Minds</h3>
-       
-      </div>
+      
     </section>
   );
 }

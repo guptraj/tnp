@@ -66,7 +66,7 @@ const Navbar = () => {
           flexWrap="wrap"
         >
           {/* Logo */}
-          <img src="" style={{ height: "100%", objectFit: "contain" }} />
+          <img src="/assets/logo.png" style={{ width: "7%" }} />
 
           {/* Links */}
           {!isMobile && (
@@ -79,22 +79,22 @@ const Navbar = () => {
               flexWrap="wrap"
             >
               <LinkButton>
-                <Typography variant="body2">Products</Typography>
+                <Typography variant="body2">Home</Typography>
                 <KeyboardArrowDownIcon fontSize="small" />
               </LinkButton>
 
               <LinkButton>
-                <Typography variant="body2">Developers</Typography>
+                <Typography variant="body2">TnP</Typography>
                 <KeyboardArrowDownIcon fontSize="small" />
               </LinkButton>
 
               <LinkButton>
-                <Typography variant="body2">Governance</Typography>
+                <Typography variant="body2">Employers</Typography>
                 <KeyboardArrowDownIcon fontSize="small" />
               </LinkButton>
 
               <LinkButton>
-                <Typography variant="body2">About</Typography>
+                <Typography variant="body2">About Us</Typography>
                 <KeyboardArrowDownIcon fontSize="small" />
               </LinkButton>
 

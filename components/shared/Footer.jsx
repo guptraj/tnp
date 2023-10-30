@@ -20,41 +20,41 @@ import GitHubIcon from "@mui/icons-material/GitHub";
   
 const footerContent = {
     protocols: {
-      title: "Protocols",
+      title: "Access",
       links: [
-        { title: "Liquidity Protocol" },
-        { title: "Aggregation Protocol" },
-        { title: "Limit Order Protocol" },
+        { title: "Student" },
+        { title: "Teaching Staff" },
+        { title: "Training and Placement Cell" },
       ],
     },
     governance: {
-      title: "Governance",
+      title: "Employers",
       links: [
-        { title: "1inch DAO" },
-        { title: "1INCH token" },
-        { title: "Forum" },
+        { title: "2023 Employers" },
+        { title: "2022 Employers" },
+        { title: "2021 Employers" },
       ],
     },
     support: {
       title: "Support",
       links: [
         { title: "Help center" },
-        { title: "Press room" },
+        
         { title: "Bug report", subtitle: "by Hacker one" },
         { title: "Contacts" },
+        { title: "FnQ" },
       ],
     },
     developers: {
-      title: "Governance",
+      title: "Documentations",
       links: [
-        { title: "Documentation" },
-        { title: "GitHub" },
-        { title: "Audit" },
-        { title: "Bug bounty" },
+        { title: "About Project" },
+        { title: "Source Code" },
+        
       ],
     },
     subscribe: {
-      title: "Subscribe to 1inch newsletter",
+      title: "Join our socials to get updates regularly",
       subtitle: "Get the latest news and updates",
     },
     socials: [
@@ -66,9 +66,9 @@ const footerContent = {
       { icon: GitHubIcon },
     ],
     copyright: {
-      left: "© 2023 1inch, All Rights Reserved.",
-      center: "ENS: 1inch.eth",
-      right: "BUIDL @ETHNewYork 2019",
+      left: "STUDENT.io",
+      center: "© 2023 student.io, All Rights Reserved.",
+      
     },
   };
 
@@ -183,9 +183,7 @@ const footerContent = {
               {copyright.center}
             </Typography>
   
-            <Typography variant="body2" color="text.secondary">
-              {copyright.right}
-            </Typography>
+            
           </Stack>
         </Container>
       </Box>

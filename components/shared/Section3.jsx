@@ -12,17 +12,17 @@ const section4Content = {
   top: {
     title: "Students ",
     subtitle:
-      "1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
+      "This section is an exclusive online portal meticulously designed to be students' ultimate gateway to success. Exclusively tailored for students, this dynamic platform serves as a comprehensive hub where they can hone their skills, refine their resume, connect with peers, and embark on a journey of endless opportunities.",
   },
   center: {
     title: "Teaching Staff",
     subtitle:
-      "1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
+      "This section stands as a dedicated online portal meticulously crafted for educators, offering an unparalleled platform tailored to streamline the teaching process. Exclusively designed for teachers, this intuitive interface serves as a central hub where you teachers can effortlessly manage student data, track attendance, record academic progress, and engage in a seamless collaboration with fellow educators.",
   },
   bottom: {
     title: "Training and Placement Cell",
     subtitle:
-      "1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
+      "This section takes a leading role in advancing careers, functioning as a meticulously designed online portal exclusively dedicated to training and placement cells. Customized to cater to the requirements of students and employers alike, this platform serves as a central hub where impactful opportunities effortlessly intersect with aspiring talent, fostering transformative career connections.",
   },
 };
 
