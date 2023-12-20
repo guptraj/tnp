@@ -19,16 +19,16 @@ async function Page({ params }: { params: { id: string } }) {
 
   return (
     <section>
-      <ProfileHeader
+      {/* <ProfileHeader
         accountId={userInfo.id}
         authUserId={user.id}
         name={userInfo.name}
         username={userInfo.username}
         imgUrl={userInfo.image}
         bio={userInfo.bio}
-      />
+      /> */}
 
-      <div className='mt-9'>
+      {/* <div className='mt-9'>
         <Tabs defaultValue='threads' className='w-full'>
           <TabsList className='tab'>
             {profileTabs.map((tab) => (
@@ -56,7 +56,7 @@ async function Page({ params }: { params: { id: string } }) {
               value={tab.value}
               className='w-full text-light-1'
             >
-              {/* @ts-ignore */}
+              
               <ThreadsTab
                 currentUserId={user.id}
                 accountId={userInfo.id}
@@ -65,7 +65,11 @@ async function Page({ params }: { params: { id: string } }) {
             </TabsContent>
           ))}
         </Tabs>
-      </div>
+      </div> */}
+
+      
+<iframe title="admin dashboard studentio" width="900" height="500" src="https://app.powerbi.com/reportEmbed?reportId=0f3b869b-e971-48f0-94ff-5cd22c56ba72&autoAuth=true&embeddedDemo=true"></iframe>
+
     </section>
   );
 }

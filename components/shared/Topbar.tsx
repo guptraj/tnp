@@ -6,8 +6,8 @@ function TopBar() {
   return (
     <nav className="topbar">
       <Link href="/" className="flex items-center gap-2">
-        <img src="/assets/logo2.png" alt="logo" width={70} height={70} />
-        <img src="/assets/logo3.png" alt="logo" width={200} height={200} />
+        <img src="/assets/logo6.png" alt="logo" width={60} height={60} />
+        <img src="/assets/logo3.png" alt="logo" width={180} height={180} />
         
       </Link>
 
