@@ -66,7 +66,7 @@ const Navbar = () => {
           flexWrap="wrap"
         >
           {/* Logo */}
-          <img src="/assets/logo.png" style={{ width: "7%" }} />
+          <img src="/assets/logo6.png" style={{ width: "7%" }} />
 
           {/* Links */}
           {!isMobile && (
