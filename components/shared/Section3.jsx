@@ -89,7 +89,7 @@ const Section4 = () => {
                 {center.subtitle}
             </Typography>
 
-            <Link href="/">
+            <Link href="/teachers">
             <OutlinedButton arrow fit >
               Teachers' Access
             </OutlinedButton>

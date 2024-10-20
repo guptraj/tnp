@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { SignOutButton, SignedIn, useAuth } from "@clerk/nextjs";
 
-import { sidebarLinks } from "@/constants";
+import { sidebarLinks, sidebarLinks2 } from "@/constants";
 
 const LeftSidebar = () => {
   const router = useRouter();
@@ -16,7 +16,7 @@ const LeftSidebar = () => {
   return (
     <section className="custom-scrollbar leftsidebar">
       <div className="mt-5 flex w-full flex-1 flex-col gap-6 px-6">
-        {sidebarLinks.map((link) => {
+        {sidebarLinks2.map((link) => {
           const isActive =
             (pathname.includes(link.route) && link.route.length > 1) ||
             pathname === link.route;
